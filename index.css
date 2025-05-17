@@ -1,0 +1,96 @@
+body {
+    background-image: linear-gradient(
+        275deg,
+    rgb(69, 69, 196) 0%,
+    hsl(240deg 47% 56%) 8%,
+    hsl(240deg 42% 60%) 15%,
+    hsl(241deg 37% 63%) 21%,
+    hsl(241deg 32% 66%) 28%,
+    hsl(242deg 27% 69%) 34%,
+    hsl(243deg 21% 71%) 41%,
+    hsl(245deg 14% 74%) 48%,
+    hsl(251deg 7% 76%) 55%,
+    hsl(23deg 2% 78%) 63%,
+    hsl(51deg 12% 80%) 71%,
+    hsl(55deg 23% 82%) 81%,
+    hsl(56deg 36% 84%) 100%
+    );
+    padding: 10px;  
+  }
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding: 25px;
+}
+
+.pic{
+    width: 50%;
+}
+
+h1{
+    font-size: 60px;
+}
+
+
+img{
+    border-radius: 10px;
+    float: right;
+    margin-right: 50px;
+}
+
+
+hr{
+    border-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table{
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    width: 95%;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+th, td, tr{
+    border: 1px solid black;
+}
+
+svg{
+    margin-right: 20px;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: chocolate;
+}
+
+tr:nth-child(even){
+    background-color: rgb(205, 228, 241);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(187, 185, 185);
+}
+
+th{
+    background-color: rgb(61, 61, 61);
+    color: aliceblue;
+}
+
+li{
+    font-size: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
